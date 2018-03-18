@@ -1,0 +1,296 @@
+/* Css 初始化 */
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#3e3e3e;
+}
+li {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+}
+img {
+	display: block;
+}
+a {
+	color:#3e3e3e;
+	text-decoration: none;
+}
+a:hover {
+	color:#5a8509;
+	text-decoration: none;
+}
+.clear {
+	width:0;
+	height:0;
+	clear:both;
+}
+/* Css 初始化 END */
+
+html {
+	/* x 轴方向溢出隐藏 */
+	overflow-x: hidden;
+}
+
+body {
+	background: #fff;
+}
+
+/* 公开的样式 */
+.w1003 {
+	width:1003px;
+	margin:0 auto;
+}
+.bor {
+	border:1px solid #dbdbdb;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+
+
+
+.header {
+	height:140px;
+	background:url(../images/hd_bg.jpg) 666px 30px no-repeat;
+}
+.logo {
+	margin:20px 0 0 30px;
+}
+
+.naver {
+	height:40px;
+	background:#2d7600;
+}
+.nav {
+	height:40px;
+}
+.naver ul li {
+	width:167px;
+	height:40px;
+	float:left;
+	line-height:40px;
+	text-align: center;
+}
+.naver ul li a {
+	font-size: 14px;
+	color:#fff;
+	display: block;
+}
+.naver ul li a:hover {
+	background:#419e07;
+}
+
+.slider {}
+.slider img {
+	margin:0 auto;
+}
+
+.main {}
+
+.news {
+	width:704px;
+	height:275px;
+	margin-top:12px;
+}
+
+.news_left {
+	width:320px;
+	height:240px;
+	margin:18px 0 0 18px;
+	background:green;
+}
+
+.news_right {
+	width:328px;
+	margin:18px 18px 0 0;
+}
+
+.news_right_top {
+	height:27px;
+	border-bottom:1px solid #dbdbdb;
+}
+.news_right_top p {
+	font-size:16px;
+	color:#252525;
+	border-bottom:4px solid #2d7600;
+	height:24px;
+	float:left;
+	/*width:86px;*/
+	/*text-indent: 6px;*/
+	padding:0 16px 0 6px;
+}
+.news_right_top span {
+	float:left;
+	font-family: Arial;
+	color:#adadad;
+	line-height:24px;
+}
+.news_right_top a {
+	float:right;
+	line-height:24px;
+	color:#797979;
+}
+
+.news_list {}
+.news_list ul li {
+	border-bottom:1px dotted #a9adb3;
+	padding: 6px 0;
+}
+.news_list ul li h3 {
+	font-size:12px;
+	color:#5a8509;
+	line-height:20px;
+	background:url(../images/icon_01.png) left center no-repeat;
+	padding-left:12px;
+}
+.news_list ul li h4 {
+	line-height:20px;
+	padding-left:12px;
+}
+.news_list ul li h3 i {
+	display: inline-block;
+	width:25px;
+	height:9px;
+	background:url(../images/icon_02.jpg) no-repeat;
+	margin-left:8px;
+}
+
+
+.notice {
+	width:282px;
+	height:275px;
+	margin-top:12px;
+}
+.notice_top {
+	margin:6px 6px 0;
+	height:33px;
+	border-bottom:1px solid #dbdbdb;
+}
+.notice_top p {
+	font-size:16px;
+	color:#252525;
+	border-bottom:4px solid #2d7600;
+	float:left;
+	height:30px;
+	padding:0 6px;
+	line-height:30px;
+}
+.notice_top a {
+	float:right;
+	color:#adadad;
+	line-height:30px;
+	margin-right:10px;
+}
+
+.notice_list {
+	padding:0 15px;
+}
+.notice_list ul li {
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dotted #a9adb3;
+	background:url(../images/icon_01.png) left center no-repeat;
+	padding-left:12px;
+}
+
+.hydt {
+	width:345px;
+	height:275px;
+	margin-top:12px;
+}
+
+.hydt_top {
+	height:44px;
+	background:#ebf2dd;
+	border-bottom:1px solid #dbdbdb;
+}
+.hydt_top p {
+	font-size:16px;
+	color:#252525;
+	border-bottom:4px solid #2d7600;
+	float:left;
+	height:41px;
+	padding:0 16px;
+	line-height:44px;
+}
+.hydt_top a {
+	float:right;
+	color:#71a510;
+	line-height:44px;
+	margin-right:16px;
+}
+
+.hydt_list ul li span {
+	float:right;
+	color:#5a8509;
+}
+
+.hdxx {
+	margin-left:12px;
+}
+
+.cpzs_list {
+	width:130px;
+}
+
+.cpzs {
+	background:url(../images/cpzs_bg.jpg) 150px 70px no-repeat;
+}
+
+.ad_box {
+	margin-top: 12px;
+}
+
+.main_last {
+	height:252px;
+	margin-top:12px;
+	background:url(../images/last_bg.jpg) 36px 22px no-repeat;
+}
+
+.hyzj {
+	width:324px;
+	height:220px;
+	border-left:1px solid #dbdbdb;
+	margin:18px 0 0 396px;
+}
+
+.lxwm {
+	margin:18px 0 0 0;
+	width:278px;
+}
+
+.lxwm_list {
+	padding:10px 15px 0;
+}
+.lxwm_list ul li {
+	line-height:34px;
+}
+
+.footer {
+	height:160px;
+	background:url(../images/ft_bg.jpg) 16px 16px no-repeat;
+}
+
+.ft_nav {
+	margin:24px 10px 0 0;
+}
+.ft_nav a {
+	margin:0 4px;
+}
+
+.ft_list {
+	margin:40px 0 0 0;
+}
+.ft_list ul li {
+	line-height:26px;
+	text-align:right;
+}
